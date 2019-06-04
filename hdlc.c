@@ -124,7 +124,7 @@ static void aprs_disp_packet(unsigned char *bp, unsigned int len)
 		bp += 7;
 		len -= 7;
 	}
-	verbprintf(0, ":");
+	verbprintf(0, ":\n");    // Added newline to put data on a separate line from header info 
 	// end of header
 	bp += 2;
 	len -= 2;
