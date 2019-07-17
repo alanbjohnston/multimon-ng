@@ -12,6 +12,10 @@ multimon-ng is the successor of multimon. It decodes the following digital trans
 - MORSE CW
 - X10
 
+This blog has a procedure for Raspberry Pi Raspbian Stretch that works:
+
+http://tubbyaustin.blogspot.com/2013/03/compiling-multimon-ng-for-raspberry-pi.html
+
 multimon-ng can be built using either qmake or CMake:
 ```
 mkdir build
